@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(23, 25, 26);
+    color: rgb(185, 181, 176);
+}
+
+#home{
+    background-image: url(../events-heavenly-header.jpg);
+    height: 100vh;
+    background-size: cover;
+position: relative;
+}
+
+.overlay{
+    background-color: rgba(149, 31, 35, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay a {
+    text-decoration: none;
+    color: rgb(185, 181, 176);
+    padding: 30px;
+    font-size: 22px;
+}
+.sidebar-menu{
+    background-color: rgb(14, 15, 15) ;
+display: flex;
+flex-direction: column;
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.sidebar-menu a:hover{
+    color:rgb(149, 31, 35) ;
+}
+.close-btn{
+    text-align: end;
+}
+.home-content{
+    padding: 16px;
+    /* margin-top: 200px; */
+
+}
+.home-content h2 , p{
+    text-align: center;
+}
+.home-content h2{
+    font-size: 60px;
+}
+.home-content span{
+    font-size: 25px;
+    cursor: pointer;
+}
+#open{
+    margin-left: 10px;
+}
+
+#slide-down{
+    margin: 0 auto;
+    width: 50%;
+    padding: 100px 0;
+}
+.slide-title{
+background-color:rgb(116, 28, 31) ;
+padding: 10px;
+cursor: pointer;
+margin: 0;
+}
+.slide-text{
+    background-color: rgb(49, 52, 54);
+    padding: 10px;
+    display: none;
+}
+.active{
+    display: block;
+}
+#details{
+    background-image: url(../invitation-2508607__340.jpg);
+    background-size: cover;
+    position: relative;
+ height: 350px;
+}
+.details-overlay{
+    background-color: rgba(149, 31, 35, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    padding: 100px 0;
+    text-align: center;
+    margin: auto;
+}
+.time{
+    border: solid 1px rgb(27, 26, 26);
+    padding: 50px;
+font-size:30px;
+font-weight: 700;
+}
+.red-text{
+    color:rgb(209, 21, 27)  ;
+}
+#contact h2 {
+text-align: left;
+}
+#contact h3{
+    text-align: left;  
+}
+.social-media i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 40px;
+}
+.social-media{
+    text-align: left;
+   padding-top: 40px;
+}
+.social-media i:hover{
+    background-color: rgb(116, 28, 31);
+    border-color: rgb(116, 28, 31);
+}
+.form-control{
+    background-color: transparent;
+    border-color: #3d3d3d;
+    border-radius: 0;
+    color: #999 !important;
+    margin-bottom: 20px;
+}
+.form-control:focus{
+    background-color: transparent;
+    border-color: #3d3d3d;
+}
+.form-control::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.btn{
+    background-color: rgb(116, 28, 31);
+    color: #999;
+    border-radius: 0;
+}
